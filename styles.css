@@ -1,0 +1,78 @@
+body {
+    font-family: 'Lobster', cursive;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    background: #F0FFF0;
+    color: #333;
+}
+
+header {
+    background: #FF6347;
+    color: #FFFFFF;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    background: #FFA07A;
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+footer {
+    background: #FF6347;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #FF6347;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #FF4500;
+}
